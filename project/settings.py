@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+CSRF_TRUSTED_ORIGINS = [https://webpage-production-226e.up.railway.app/]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
