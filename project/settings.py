@@ -75,14 +75,14 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+#mysql://root:********@containers-us-west-160.railway.app:7016/railway
 DATABASES = {
     'default':{'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'project',
+    'NAME': 'railway',
     'USER': 'root',
     'PASSWORD': 'rap123rap',
-    'HOST': '127.0.0.1',
-    'PORT': '3306',
+    'HOST': 'containers-us-west-160.railway.app',
+    'PORT': '7016',
     }
 }
 
